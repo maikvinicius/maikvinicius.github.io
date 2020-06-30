@@ -77,6 +77,7 @@ body {
 .habilidades {
     padding: 40px;
     background: #fff;
+    margin-bottom: 40px;
 }
 
 .habilidades h1 {
@@ -234,4 +235,74 @@ body {
 
 .whatsapp:hover {
     background: #28ce64;
+}
+
+/* Responsivo */
+
+@media (min-width: 735px) and (max-width: 1200px) {
+    .header {
+        padding: 0px 30px;
+    }
+    .esquerda {
+        margin-left: 20px;
+    }
+    .direita {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 735px){
+
+    .header {
+        margin: 30px 30px 0px 30px;
+    }
+
+    .header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacoes {
+        flex-direction: column;
+    }
+
+    .caixa-dados {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .redes-sociais{
+        justify-content: center;
+    }
+
+    .titulo, .descricao {
+        text-align: center;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .blocos {
+        display: block;
+        padding-top: 40px;
+    }
+
+    .esquerda, .direita {
+        margin: 0px 30px;
+    }
+
+}
+
+@media (min-width: 735px) {
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
 }
