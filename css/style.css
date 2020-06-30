@@ -50,7 +50,11 @@ body {
 .icone {
     width: 20px;
     height: 20px;
-    background: #cbcfd3;
+}
+
+.icone img {
+    width: 15px;
+    height: 15px;
 }
 
 .links .item {
@@ -62,7 +66,7 @@ body {
 
 .links .item .link {
     color: #6e6e6e;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .links .item .link a {
@@ -140,4 +144,94 @@ body {
 
 .conteudo img {
     width: 100%;
+}
+
+.header {
+    background: #f6f6f6
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+}
+
+.header .container {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.caixa-dados .titulo {
+    font-weight: bold;
+    color: #454e58;
+    font-size: 28px;
+}
+
+.caixa-dados .descricao {
+    font-size: 18px;
+    color: #919ca7;
+}
+
+.caixa-dados .redes-sociais {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.foto img {
+    width: 100%;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.caixa-botao button {
+    background: #53ba4d;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.caixa-botao button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.rede-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: #b2b9c0;
+    margin-right: 10px;
+}
+
+.redes-sociais .rede-social img {
+    width: 15px;
+    height: 15px;
+}
+
+.linkedin:hover {
+    background: #0076b5;
+}
+
+.instagram:hover {
+    background: #c52f7e;
+}
+
+.whatsapp:hover {
+    background: #28ce64;
 }
